@@ -39,4 +39,7 @@
 	</bean> 
 
 	<jpa:repositories base-package="cz.jiripinkas.jba.repository" entity-manager-factory-ref="emf" transaction-manager-ref="transactionManager"/>
+
+	<import resource="security.xml" />
+	
 </beans>
